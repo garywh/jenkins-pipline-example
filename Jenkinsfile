@@ -1,7 +1,7 @@
 node ('hzbxs-yipin-qatest7-bjzhangjiwei') {
 
   stage ('Checkout') {
-    git clone 'https://github.com/siwufeiwu/ip2region.git'
+    git 'https://github.com/siwufeiwu/ip2region.git'
   }
 
   stage ('Install') {
