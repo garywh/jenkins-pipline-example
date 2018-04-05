@@ -1,4 +1,4 @@
-node ('hzbxs-yipin-qatest7-bjzhangjiwei') {
+node ('master') {
 
   stage ('Checkout') {
     git 'https://github.com/siwufeiwu/jenkins-pipline-example.git'
